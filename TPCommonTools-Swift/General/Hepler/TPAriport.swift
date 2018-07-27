@@ -22,11 +22,21 @@ class TPAriport: NSObject {
     func makeFly(vcType: TPControllerType) {
         switch vcType {
         case .contact:
-            print("")
+            let vc = TPContactController.init()
+            self.pushToVC(controller: vc)
         case .photo:
             print("")
         case .file:
             print("")
+        }
+    }
+    
+    
+    func pushToVC(controller: UIViewController) {
+        let rooVC = UIApplication.shared.keyWindow?.rootViewController
+        if rooVC?.classForCoder == TPNavigationController.classForCoder() {
+            let nav = rooVC as! TPNavigationController
+            nav.pushViewController(controller, animated: true)
         }
     }
 }

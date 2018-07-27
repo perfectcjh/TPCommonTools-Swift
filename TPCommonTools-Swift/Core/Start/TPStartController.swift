@@ -50,6 +50,7 @@ extension TPStartController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = TPTableViewCell.classCellWithTableView(tableView, indexPath: indexPath)
+        cell.accessoryType = .disclosureIndicator
         cell.textLabel?.text = self.dataArray[indexPath.row].rawValue
 //        cell.detailTextLabel?.text = ""
         return cell
@@ -62,7 +63,7 @@ extension TPStartController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 60
+        return 44
     }
     
     func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {

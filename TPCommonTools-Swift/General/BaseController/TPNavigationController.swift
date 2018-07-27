@@ -46,7 +46,7 @@ class TPNavigationController: UINavigationController {
     }
     
     func configNavigationBar() {
-        self.resetNavigationBar()
+        self.setRootNavigationBar()
     }
 
     override func didReceiveMemoryWarning() {
@@ -94,7 +94,7 @@ extension TPNavigationController {
         
         self.navigationBar.isTranslucent = false
         self.navigationBar.tintColor = UIColor.white
-        self.navigationBar.barTintColor = .blue
+        self.navigationBar.barTintColor = .orange
         self.navigationBar.backgroundColor = UIColor.white
         //        self.navigationBar.setBackgroundImage(UIImage.init(), for: .default)
         self.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]

@@ -19,6 +19,8 @@
 		323B579B210B1A1900AF403C /* TPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B579A210B1A1900AF403C /* TPTableViewCell.swift */; };
 		323B579D210B1A2B00AF403C /* TPCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B579C210B1A2B00AF403C /* TPCollectionViewCell.swift */; };
 		323B579F210B1CFC00AF403C /* TPAriport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B579E210B1CFC00AF403C /* TPAriport.swift */; };
+		323B57A3210B1FDD00AF403C /* TPContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B57A1210B1FDD00AF403C /* TPContactController.swift */; };
+		323B57A4210B1FDD00AF403C /* TPContactController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 323B57A2210B1FDD00AF403C /* TPContactController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		323B579A210B1A1900AF403C /* TPTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPTableViewCell.swift; sourceTree = "<group>"; };
 		323B579C210B1A2B00AF403C /* TPCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPCollectionViewCell.swift; sourceTree = "<group>"; };
 		323B579E210B1CFC00AF403C /* TPAriport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPAriport.swift; sourceTree = "<group>"; };
+		323B57A1210B1FDD00AF403C /* TPContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPContactController.swift; sourceTree = "<group>"; };
+		323B57A2210B1FDD00AF403C /* TPContactController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TPContactController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,8 @@
 		323B5786210B11A400AF403C /* Contact */ = {
 			isa = PBXGroup;
 			children = (
+				323B57A1210B1FDD00AF403C /* TPContactController.swift */,
+				323B57A2210B1FDD00AF403C /* TPContactController.xib */,
 				323B5787210B11BA00AF403C /* TPContactManager */,
 			);
 			path = Contact;
@@ -326,6 +332,7 @@
 			files = (
 				323B5798210B185100AF403C /* LaunchScreen.storyboard in Resources */,
 				323B5760210AB7F800AF403C /* Assets.xcassets in Resources */,
+				323B57A4210B1FDD00AF403C /* TPContactController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +362,7 @@
 				323B5789210B130B00AF403C /* TPContactManager.swift in Sources */,
 				323B5759210AB7F300AF403C /* AppDelegate.swift in Sources */,
 				323B578C210B13C800AF403C /* TPNavigationController.swift in Sources */,
+				323B57A3210B1FDD00AF403C /* TPContactController.swift in Sources */,
 				323B5794210B161600AF403C /* TPViewController.swift in Sources */,
 				323B579D210B1A2B00AF403C /* TPCollectionViewCell.swift in Sources */,
 				323B579F210B1CFC00AF403C /* TPAriport.swift in Sources */,
