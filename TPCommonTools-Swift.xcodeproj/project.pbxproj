@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		323B5759210AB7F300AF403C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B5758210AB7F300AF403C /* AppDelegate.swift */; };
-		323B575B210AB7F300AF403C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B575A210AB7F300AF403C /* ViewController.swift */; };
-		323B575E210AB7F300AF403C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323B575C210AB7F300AF403C /* Main.storyboard */; };
 		323B5760210AB7F800AF403C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323B575F210AB7F800AF403C /* Assets.xcassets */; };
-		323B5763210AB7F800AF403C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323B5761210AB7F800AF403C /* LaunchScreen.storyboard */; };
 		323B576E210AB7F800AF403C /* TPCommonTools_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B576D210AB7F800AF403C /* TPCommonTools_SwiftTests.swift */; };
 		323B5779210AB7F800AF403C /* TPCommonTools_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B5778210AB7F800AF403C /* TPCommonTools_SwiftUITests.swift */; };
+		323B5789210B130B00AF403C /* TPContactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B5788210B130B00AF403C /* TPContactManager.swift */; };
+		323B578C210B13C800AF403C /* TPNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B578B210B13C800AF403C /* TPNavigationController.swift */; };
+		323B5792210B15D600AF403C /* TPStartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B5791210B15D600AF403C /* TPStartController.swift */; };
+		323B5794210B161600AF403C /* TPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B5793210B161600AF403C /* TPViewController.swift */; };
+		323B5798210B185100AF403C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323B5797210B185100AF403C /* LaunchScreen.storyboard */; };
+		323B579B210B1A1900AF403C /* TPTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B579A210B1A1900AF403C /* TPTableViewCell.swift */; };
+		323B579D210B1A2B00AF403C /* TPCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B579C210B1A2B00AF403C /* TPCollectionViewCell.swift */; };
+		323B579F210B1CFC00AF403C /* TPAriport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B579E210B1CFC00AF403C /* TPAriport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +41,7 @@
 /* Begin PBXFileReference section */
 		323B5755210AB7F300AF403C /* TPCommonTools-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TPCommonTools-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		323B5758210AB7F300AF403C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		323B575A210AB7F300AF403C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		323B575D210AB7F300AF403C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		323B575F210AB7F800AF403C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		323B5762210AB7F800AF403C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		323B5764210AB7F800AF403C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		323B5769210AB7F800AF403C /* TPCommonTools-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TPCommonTools-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		323B576D210AB7F800AF403C /* TPCommonTools_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPCommonTools_SwiftTests.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 		323B5774210AB7F800AF403C /* TPCommonTools-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TPCommonTools-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		323B5778210AB7F800AF403C /* TPCommonTools_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPCommonTools_SwiftUITests.swift; sourceTree = "<group>"; };
 		323B577A210AB7F800AF403C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323B5788210B130B00AF403C /* TPContactManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPContactManager.swift; sourceTree = "<group>"; };
+		323B578B210B13C800AF403C /* TPNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPNavigationController.swift; sourceTree = "<group>"; };
+		323B5791210B15D600AF403C /* TPStartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPStartController.swift; sourceTree = "<group>"; };
+		323B5793210B161600AF403C /* TPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPViewController.swift; sourceTree = "<group>"; };
+		323B5797210B185100AF403C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		323B579A210B1A1900AF403C /* TPTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPTableViewCell.swift; sourceTree = "<group>"; };
+		323B579C210B1A2B00AF403C /* TPCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPCollectionViewCell.swift; sourceTree = "<group>"; };
+		323B579E210B1CFC00AF403C /* TPAriport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPAriport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,10 @@
 		323B5757210AB7F300AF403C /* TPCommonTools-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				323B5758210AB7F300AF403C /* AppDelegate.swift */,
-				323B575A210AB7F300AF403C /* ViewController.swift */,
-				323B575C210AB7F300AF403C /* Main.storyboard */,
-				323B575F210AB7F800AF403C /* Assets.xcassets */,
-				323B5761210AB7F800AF403C /* LaunchScreen.storyboard */,
-				323B5764210AB7F800AF403C /* Info.plist */,
+				323B578D210B13D900AF403C /* Core */,
+				323B5795210B164A00AF403C /* General */,
+				323B578E210B13E300AF403C /* Resource */,
+				323B578F210B13FA00AF403C /* SupportingFiles */,
 			);
 			path = "TPCommonTools-Swift";
 			sourceTree = "<group>";
@@ -123,6 +131,93 @@
 				323B577A210AB7F800AF403C /* Info.plist */,
 			);
 			path = "TPCommonTools-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		323B5786210B11A400AF403C /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				323B5787210B11BA00AF403C /* TPContactManager */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		323B5787210B11BA00AF403C /* TPContactManager */ = {
+			isa = PBXGroup;
+			children = (
+				323B5788210B130B00AF403C /* TPContactManager.swift */,
+			);
+			path = TPContactManager;
+			sourceTree = "<group>";
+		};
+		323B578D210B13D900AF403C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				323B5790210B156500AF403C /* Start */,
+				323B5786210B11A400AF403C /* Contact */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		323B578E210B13E300AF403C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		323B578F210B13FA00AF403C /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				323B575F210AB7F800AF403C /* Assets.xcassets */,
+				323B5764210AB7F800AF403C /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		323B5790210B156500AF403C /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				323B5758210AB7F300AF403C /* AppDelegate.swift */,
+				323B5791210B15D600AF403C /* TPStartController.swift */,
+				323B5797210B185100AF403C /* LaunchScreen.storyboard */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		323B5795210B164A00AF403C /* General */ = {
+			isa = PBXGroup;
+			children = (
+				323B57A0210B1D0200AF403C /* Hepler */,
+				323B5799210B19F700AF403C /* BaseView */,
+				323B5796210B166B00AF403C /* BaseController */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		323B5796210B166B00AF403C /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				323B578B210B13C800AF403C /* TPNavigationController.swift */,
+				323B5793210B161600AF403C /* TPViewController.swift */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		323B5799210B19F700AF403C /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				323B579A210B1A1900AF403C /* TPTableViewCell.swift */,
+				323B579C210B1A2B00AF403C /* TPCollectionViewCell.swift */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		323B57A0210B1D0200AF403C /* Hepler */ = {
+			isa = PBXGroup;
+			children = (
+				323B579E210B1CFC00AF403C /* TPAriport.swift */,
+			);
+			path = Hepler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +324,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				323B5763210AB7F800AF403C /* LaunchScreen.storyboard in Resources */,
+				323B5798210B185100AF403C /* LaunchScreen.storyboard in Resources */,
 				323B5760210AB7F800AF403C /* Assets.xcassets in Resources */,
-				323B575E210AB7F300AF403C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +350,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				323B575B210AB7F300AF403C /* ViewController.swift in Sources */,
+				323B5792210B15D600AF403C /* TPStartController.swift in Sources */,
+				323B579B210B1A1900AF403C /* TPTableViewCell.swift in Sources */,
+				323B5789210B130B00AF403C /* TPContactManager.swift in Sources */,
 				323B5759210AB7F300AF403C /* AppDelegate.swift in Sources */,
+				323B578C210B13C800AF403C /* TPNavigationController.swift in Sources */,
+				323B5794210B161600AF403C /* TPViewController.swift in Sources */,
+				323B579D210B1A2B00AF403C /* TPCollectionViewCell.swift in Sources */,
+				323B579F210B1CFC00AF403C /* TPAriport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +391,6 @@
 			targetProxy = 323B5775210AB7F800AF403C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		323B575C210AB7F300AF403C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				323B575D210AB7F300AF403C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		323B5761210AB7F800AF403C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				323B5762210AB7F800AF403C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		323B577B210AB7F800AF403C /* Debug */ = {
@@ -432,7 +513,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 753B3ACW59;
-				INFOPLIST_FILE = "TPCommonTools-Swift/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TPCommonTools-Swift/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +532,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 753B3ACW59;
-				INFOPLIST_FILE = "TPCommonTools-Swift/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/TPCommonTools-Swift/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
