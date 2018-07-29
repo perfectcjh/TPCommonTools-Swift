@@ -21,6 +21,7 @@
 		323B579F210B1CFC00AF403C /* TPAriport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B579E210B1CFC00AF403C /* TPAriport.swift */; };
 		323B57A3210B1FDD00AF403C /* TPContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B57A1210B1FDD00AF403C /* TPContactController.swift */; };
 		323B57A4210B1FDD00AF403C /* TPContactController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 323B57A2210B1FDD00AF403C /* TPContactController.xib */; };
+		323B57A6210DA60200AF403C /* TPContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B57A5210DA60200AF403C /* TPContactModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		323B579E210B1CFC00AF403C /* TPAriport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPAriport.swift; sourceTree = "<group>"; };
 		323B57A1210B1FDD00AF403C /* TPContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPContactController.swift; sourceTree = "<group>"; };
 		323B57A2210B1FDD00AF403C /* TPContactController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TPContactController.xib; sourceTree = "<group>"; };
+		323B57A5210DA60200AF403C /* TPContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPContactModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				323B5788210B130B00AF403C /* TPContactManager.swift */,
+				323B57A5210DA60200AF403C /* TPContactModel.swift */,
 			);
 			path = TPContactManager;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				323B579B210B1A1900AF403C /* TPTableViewCell.swift in Sources */,
 				323B5789210B130B00AF403C /* TPContactManager.swift in Sources */,
 				323B5759210AB7F300AF403C /* AppDelegate.swift in Sources */,
+				323B57A6210DA60200AF403C /* TPContactModel.swift in Sources */,
 				323B578C210B13C800AF403C /* TPNavigationController.swift in Sources */,
 				323B57A3210B1FDD00AF403C /* TPContactController.swift in Sources */,
 				323B5794210B161600AF403C /* TPViewController.swift in Sources */,
