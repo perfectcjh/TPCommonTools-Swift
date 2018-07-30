@@ -25,7 +25,7 @@ class TPFilePreviewManager: NSObject {
         for filePath in filePathArray {
             let url = URL.init(fileURLWithPath: filePath)
             let previewItem = url as QLPreviewItem
-            if TPFilePreviewManager.canPreview(previewItem: previewItem) {
+            if QLPreviewController.canPreview(previewItem) {
                 self.previewItemArr.append(previewItem)
             }
         }
@@ -50,7 +50,9 @@ class TPFilePreviewManager: NSObject {
         self.previewVC.dismiss(animated: true, completion: nil)
     }
     
-    static func canPreview(previewItem: QLPreviewItem) -> Bool {
+    static func canPreview(path: String) -> Bool {
+        let url = URL.init(fileURLWithPath: path)
+        let previewItem = url as QLPreviewItem
         return QLPreviewController.canPreview(previewItem)
     }
 }
