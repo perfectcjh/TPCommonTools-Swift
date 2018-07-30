@@ -22,6 +22,12 @@
 		323B57A3210B1FDD00AF403C /* TPContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B57A1210B1FDD00AF403C /* TPContactController.swift */; };
 		323B57A4210B1FDD00AF403C /* TPContactController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 323B57A2210B1FDD00AF403C /* TPContactController.xib */; };
 		323B57A6210DA60200AF403C /* TPContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B57A5210DA60200AF403C /* TPContactModel.swift */; };
+		323B57AA210EA41400AF403C /* TPFilePreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B57A8210EA41400AF403C /* TPFilePreviewController.swift */; };
+		323B57AB210EA41400AF403C /* TPFilePreviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 323B57A9210EA41400AF403C /* TPFilePreviewController.xib */; };
+		323B57AD210EA56E00AF403C /* test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 323B57AC210EA56E00AF403C /* test.pdf */; };
+		323B57AF210EB31900AF403C /* test.docx in Resources */ = {isa = PBXBuildFile; fileRef = 323B57AE210EB31900AF403C /* test.docx */; };
+		323B57B1210EB39300AF403C /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 323B57B0210EB39300AF403C /* test.png */; };
+		323B57B3210EBB9300AF403C /* TPFilePreviewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B57B2210EBB9300AF403C /* TPFilePreviewManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +69,12 @@
 		323B57A1210B1FDD00AF403C /* TPContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPContactController.swift; sourceTree = "<group>"; };
 		323B57A2210B1FDD00AF403C /* TPContactController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TPContactController.xib; sourceTree = "<group>"; };
 		323B57A5210DA60200AF403C /* TPContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPContactModel.swift; sourceTree = "<group>"; };
+		323B57A8210EA41400AF403C /* TPFilePreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPFilePreviewController.swift; sourceTree = "<group>"; };
+		323B57A9210EA41400AF403C /* TPFilePreviewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TPFilePreviewController.xib; sourceTree = "<group>"; };
+		323B57AC210EA56E00AF403C /* test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = test.pdf; sourceTree = "<group>"; };
+		323B57AE210EB31900AF403C /* test.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.docx; sourceTree = "<group>"; };
+		323B57B0210EB39300AF403C /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		323B57B2210EBB9300AF403C /* TPFilePreviewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPFilePreviewManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,8 +173,9 @@
 		323B578D210B13D900AF403C /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				323B5790210B156500AF403C /* Start */,
 				323B5786210B11A400AF403C /* Contact */,
+				323B57A7210EA38500AF403C /* FilePreview */,
+				323B5790210B156500AF403C /* Start */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -170,6 +183,9 @@
 		323B578E210B13E300AF403C /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				323B57B0210EB39300AF403C /* test.png */,
+				323B57AE210EB31900AF403C /* test.docx */,
+				323B57AC210EA56E00AF403C /* test.pdf */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -227,6 +243,24 @@
 				323B579E210B1CFC00AF403C /* TPAriport.swift */,
 			);
 			path = Hepler;
+			sourceTree = "<group>";
+		};
+		323B57A7210EA38500AF403C /* FilePreview */ = {
+			isa = PBXGroup;
+			children = (
+				323B57A8210EA41400AF403C /* TPFilePreviewController.swift */,
+				323B57A9210EA41400AF403C /* TPFilePreviewController.xib */,
+				323B57B4210EC33900AF403C /* TPFilePreviewManager */,
+			);
+			path = FilePreview;
+			sourceTree = "<group>";
+		};
+		323B57B4210EC33900AF403C /* TPFilePreviewManager */ = {
+			isa = PBXGroup;
+			children = (
+				323B57B2210EBB9300AF403C /* TPFilePreviewManager.swift */,
+			);
+			path = TPFilePreviewManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,9 +367,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				323B57B1210EB39300AF403C /* test.png in Resources */,
 				323B5798210B185100AF403C /* LaunchScreen.storyboard in Resources */,
 				323B5760210AB7F800AF403C /* Assets.xcassets in Resources */,
+				323B57AB210EA41400AF403C /* TPFilePreviewController.xib in Resources */,
 				323B57A4210B1FDD00AF403C /* TPContactController.xib in Resources */,
+				323B57AD210EA56E00AF403C /* test.pdf in Resources */,
+				323B57AF210EB31900AF403C /* test.docx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +404,9 @@
 				323B5759210AB7F300AF403C /* AppDelegate.swift in Sources */,
 				323B57A6210DA60200AF403C /* TPContactModel.swift in Sources */,
 				323B578C210B13C800AF403C /* TPNavigationController.swift in Sources */,
+				323B57B3210EBB9300AF403C /* TPFilePreviewManager.swift in Sources */,
 				323B57A3210B1FDD00AF403C /* TPContactController.swift in Sources */,
+				323B57AA210EA41400AF403C /* TPFilePreviewController.swift in Sources */,
 				323B5794210B161600AF403C /* TPViewController.swift in Sources */,
 				323B579D210B1A2B00AF403C /* TPCollectionViewCell.swift in Sources */,
 				323B579F210B1CFC00AF403C /* TPAriport.swift in Sources */,

@@ -12,6 +12,7 @@ enum TPControllerType: String {
     case contact = "通讯录"
     case photo = "相册"
     case file = "本地文件管理"
+    case filePreview = "文件预览"
 }
 
 
@@ -28,6 +29,9 @@ class TPAriport: NSObject {
             print("")
         case .file:
             print("")
+        case .filePreview:
+            let vc = TPFilePreviewController.init()
+            self.pushToVC(controller: vc)
         }
     }
     

@@ -12,7 +12,7 @@ class TPStartController: TPViewController {
     
     var tableView: UITableView!
     
-    let dataArray: [TPControllerType] = [.contact, .photo, .file]
+    let dataArray: [TPControllerType] = [.contact, .photo, .file, .filePreview]
 
     override func viewDidLoad() {
         super.viewDidLoad()
