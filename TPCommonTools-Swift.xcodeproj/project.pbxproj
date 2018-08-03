@@ -28,6 +28,11 @@
 		323B57AF210EB31900AF403C /* test.docx in Resources */ = {isa = PBXBuildFile; fileRef = 323B57AE210EB31900AF403C /* test.docx */; };
 		323B57B1210EB39300AF403C /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 323B57B0210EB39300AF403C /* test.png */; };
 		323B57B3210EBB9300AF403C /* TPFilePreviewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323B57B2210EBB9300AF403C /* TPFilePreviewManager.swift */; };
+		329C1B8B21144CFE00D61A05 /* TPFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329C1B8A21144CFE00D61A05 /* TPFileManager.swift */; };
+		329C1B8E21144D5D00D61A05 /* TPLocalFileManagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329C1B8C21144D5D00D61A05 /* TPLocalFileManagerController.swift */; };
+		329C1B8F21144D5D00D61A05 /* TPLocalFileManagerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329C1B8D21144D5D00D61A05 /* TPLocalFileManagerController.xib */; };
+		329C1B9221144D8700D61A05 /* TPPhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329C1B9021144D8700D61A05 /* TPPhotoController.swift */; };
+		329C1B9321144D8700D61A05 /* TPPhotoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329C1B9121144D8700D61A05 /* TPPhotoController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +80,11 @@
 		323B57AE210EB31900AF403C /* test.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.docx; sourceTree = "<group>"; };
 		323B57B0210EB39300AF403C /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 		323B57B2210EBB9300AF403C /* TPFilePreviewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPFilePreviewManager.swift; sourceTree = "<group>"; };
+		329C1B8A21144CFE00D61A05 /* TPFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TPFileManager.swift; sourceTree = "<group>"; };
+		329C1B8C21144D5D00D61A05 /* TPLocalFileManagerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPLocalFileManagerController.swift; sourceTree = "<group>"; };
+		329C1B8D21144D5D00D61A05 /* TPLocalFileManagerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TPLocalFileManagerController.xib; sourceTree = "<group>"; };
+		329C1B9021144D8700D61A05 /* TPPhotoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPPhotoController.swift; sourceTree = "<group>"; };
+		329C1B9121144D8700D61A05 /* TPPhotoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TPPhotoController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,14 +161,14 @@
 			path = "TPCommonTools-SwiftUITests";
 			sourceTree = "<group>";
 		};
-		323B5786210B11A400AF403C /* Contact */ = {
+		323B5786210B11A400AF403C /* Contact(通讯录) */ = {
 			isa = PBXGroup;
 			children = (
 				323B57A1210B1FDD00AF403C /* TPContactController.swift */,
 				323B57A2210B1FDD00AF403C /* TPContactController.xib */,
 				323B5787210B11BA00AF403C /* TPContactManager */,
 			);
-			path = Contact;
+			path = "Contact(通讯录)";
 			sourceTree = "<group>";
 		};
 		323B5787210B11BA00AF403C /* TPContactManager */ = {
@@ -173,8 +183,10 @@
 		323B578D210B13D900AF403C /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				323B5786210B11A400AF403C /* Contact */,
-				323B57A7210EA38500AF403C /* FilePreview */,
+				329C1B8821144C4500D61A05 /* Photo(相册) */,
+				329C1B8721144C0700D61A05 /* LocalFileManager(本地文件管理) */,
+				323B5786210B11A400AF403C /* Contact(通讯录) */,
+				323B57A7210EA38500AF403C /* FilePreview(文件预览) */,
 				323B5790210B156500AF403C /* Start */,
 			);
 			path = Core;
@@ -245,14 +257,14 @@
 			path = Hepler;
 			sourceTree = "<group>";
 		};
-		323B57A7210EA38500AF403C /* FilePreview */ = {
+		323B57A7210EA38500AF403C /* FilePreview(文件预览) */ = {
 			isa = PBXGroup;
 			children = (
 				323B57A8210EA41400AF403C /* TPFilePreviewController.swift */,
 				323B57A9210EA41400AF403C /* TPFilePreviewController.xib */,
 				323B57B4210EC33900AF403C /* TPFilePreviewManager */,
 			);
-			path = FilePreview;
+			path = "FilePreview(文件预览)";
 			sourceTree = "<group>";
 		};
 		323B57B4210EC33900AF403C /* TPFilePreviewManager */ = {
@@ -261,6 +273,33 @@
 				323B57B2210EBB9300AF403C /* TPFilePreviewManager.swift */,
 			);
 			path = TPFilePreviewManager;
+			sourceTree = "<group>";
+		};
+		329C1B8721144C0700D61A05 /* LocalFileManager(本地文件管理) */ = {
+			isa = PBXGroup;
+			children = (
+				329C1B8C21144D5D00D61A05 /* TPLocalFileManagerController.swift */,
+				329C1B8D21144D5D00D61A05 /* TPLocalFileManagerController.xib */,
+				329C1B8921144CAB00D61A05 /* TPFileManager */,
+			);
+			path = "LocalFileManager(本地文件管理)";
+			sourceTree = "<group>";
+		};
+		329C1B8821144C4500D61A05 /* Photo(相册) */ = {
+			isa = PBXGroup;
+			children = (
+				329C1B9021144D8700D61A05 /* TPPhotoController.swift */,
+				329C1B9121144D8700D61A05 /* TPPhotoController.xib */,
+			);
+			path = "Photo(相册)";
+			sourceTree = "<group>";
+		};
+		329C1B8921144CAB00D61A05 /* TPFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				329C1B8A21144CFE00D61A05 /* TPFileManager.swift */,
+			);
+			path = TPFileManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,12 +406,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				329C1B9321144D8700D61A05 /* TPPhotoController.xib in Resources */,
 				323B57B1210EB39300AF403C /* test.png in Resources */,
 				323B5798210B185100AF403C /* LaunchScreen.storyboard in Resources */,
 				323B5760210AB7F800AF403C /* Assets.xcassets in Resources */,
 				323B57AB210EA41400AF403C /* TPFilePreviewController.xib in Resources */,
 				323B57A4210B1FDD00AF403C /* TPContactController.xib in Resources */,
 				323B57AD210EA56E00AF403C /* test.pdf in Resources */,
+				329C1B8F21144D5D00D61A05 /* TPLocalFileManagerController.xib in Resources */,
 				323B57AF210EB31900AF403C /* test.docx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,8 +442,11 @@
 				323B5792210B15D600AF403C /* TPStartController.swift in Sources */,
 				323B579B210B1A1900AF403C /* TPTableViewCell.swift in Sources */,
 				323B5789210B130B00AF403C /* TPContactManager.swift in Sources */,
+				329C1B8E21144D5D00D61A05 /* TPLocalFileManagerController.swift in Sources */,
 				323B5759210AB7F300AF403C /* AppDelegate.swift in Sources */,
 				323B57A6210DA60200AF403C /* TPContactModel.swift in Sources */,
+				329C1B8B21144CFE00D61A05 /* TPFileManager.swift in Sources */,
+				329C1B9221144D8700D61A05 /* TPPhotoController.swift in Sources */,
 				323B578C210B13C800AF403C /* TPNavigationController.swift in Sources */,
 				323B57B3210EBB9300AF403C /* TPFilePreviewManager.swift in Sources */,
 				323B57A3210B1FDD00AF403C /* TPContactController.swift in Sources */,

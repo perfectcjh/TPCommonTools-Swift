@@ -9,10 +9,10 @@
 import UIKit
 
 enum TPControllerType: String {
-    case contact = "通讯录"
-    case photo = "相册"
+    case contact = "通讯录(Contacts)"
+    case photo = "相册(Photos)"
     case file = "本地文件管理"
-    case filePreview = "文件预览"
+    case filePreview = "文件预览(QuickLook)"
 }
 
 
@@ -21,18 +21,20 @@ class TPAriport: NSObject {
     static let shared = TPAriport.init()
     
     func makeFly(vcType: TPControllerType) {
+        var vc: UIViewController = UIViewController.init()
         switch vcType {
         case .contact:
-            let vc = TPContactController.init()
-            self.pushToVC(controller: vc)
+            vc = TPContactController.init()
         case .photo:
-            print("")
+            vc = TPPhotoController.init()
         case .file:
-            print("")
+            vc = TPLocalFileManagerController.init()
         case .filePreview:
-            let vc = TPFilePreviewController.init()
-            self.pushToVC(controller: vc)
+            vc = TPFilePreviewController.init()
+            
         }
+        vc.title = vcType.rawValue
+        self.pushToVC(controller: vc)
     }
     
     

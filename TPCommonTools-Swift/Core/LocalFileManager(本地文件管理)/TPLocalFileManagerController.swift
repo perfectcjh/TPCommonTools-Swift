@@ -1,20 +1,18 @@
 //
-//  TPContactController.swift
+//  TPLocalFileManagerController.swift
 //  TPCommonTools-Swift
 //
-//  Created by chenjinheng on 2018/7/27.
-//  Copyright © 2018年 perfectcjh. All rights reserved.
+//  Created by chenjinheng on 2018/8/3.
+//  Copyright © 2018 perfectcjh. All rights reserved.
 //
 
 import UIKit
 
-class TPContactController: TPViewController {
+class TPLocalFileManagerController: TPViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.title = "通讯录"
-        
         
     }
 

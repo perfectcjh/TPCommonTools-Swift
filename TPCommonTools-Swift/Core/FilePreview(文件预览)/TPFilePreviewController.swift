@@ -15,8 +15,6 @@ class TPFilePreviewController: TPViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.title = "文件预览"
         
         let nameArr = ["test.docx", "test.pdf", "test.png"]
         for path in nameArr {

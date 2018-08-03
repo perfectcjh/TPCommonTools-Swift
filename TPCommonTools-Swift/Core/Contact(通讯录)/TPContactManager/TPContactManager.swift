@@ -35,7 +35,7 @@ class TPContactManager: NSObject {
         case .notDetermined:
             let contactStore = CNContactStore.init()
             contactStore.requestAccess(for: .contacts) { (grented, error) in
-                if error != nil {
+                if grented == true {
                     print("已授权")
                     complation(true)
                 }else{
